@@ -1,3 +1,37 @@
 site_name: Harsh's Tech Notes
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking
+    - toc.follow
+    - navigation.top
+    - search.share
+    - navigation.footer
+  icon: 
+    # logo: fontawesome/solid/brain
+    logo: fontawesome/solid/layer-group
+  font:
+    text: Raleway
+    # text: Open Sans
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      primary: white
+      accent: teal
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+plugins:
+  - tags
+      # tags_file: tags.md
+  - search
