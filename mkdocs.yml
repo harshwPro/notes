@@ -32,6 +32,29 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 plugins:
-  - tags
-      # tags_file: tags.md
-  - search
+  - tags:
+      tags_file : tags.md
+  - search:
+
+# Page tree
+nav:
+  - Cloud: 
+    - Cloud Computing: Cloud/cloud-computing.md
+# # Page tree
+# nav:
+#   - Home: index.md
+#   - Getting started:
+#     - Installation: getting-started.md
+#     - Creating your site: creating-your-site.md
+#     - Bug reporting:
+#       - bug-report/index.md
+#       - Creating a reproduction: bug-report/reproduction.md
+#     - Changelog:
+#       - changelog/index.md
+#       - How to upgrade: upgrade.md
+#   - Setup:
+#     - Changing the colors: setup/changing-the-colors.md
+#     - Changing the fonts: setup/changing-the-fonts.md
+#     - Extensions:
+#       - setup/extensions/index.md
+#       - Python Markdown: setup/extensions/python-markdown.md
