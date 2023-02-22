@@ -1,4 +1,7 @@
 site_name: Harsh's Tech Notes
+markdown_extensions:
+  - attr_list
+  - md_in_html
 theme:
   name: material
   features:
